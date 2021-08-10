@@ -14,6 +14,7 @@ from tensorflow.keras.models import load_model
 import streamlit as st
 from PIL import Image
 
+@st.cache(suppress_st_warning=True)
 def solvePuzzle():
 	st.title("Sudoku Solver with OpenCV")
 	st.write("project by Omeed Fallahi")
