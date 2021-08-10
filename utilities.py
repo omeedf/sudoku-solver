@@ -61,7 +61,6 @@ def getDigit(squares, model):
         prediction = model.predict(img)
         index = np.argmax(prediction, axis=-1)
         prob = np.amax(prediction)
-        #print(index, prob)
         if prob > 0.8:
             numbers.append(index[0])
         else:
