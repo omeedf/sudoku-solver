@@ -3,9 +3,9 @@
 
 ## References:
 ##      • Murtaza Hassan: https://github.com/murtazahassan
-##			-> CNN (digit classification) and OpenCV implementation for board capture and projection
-##		• Peter Norvig: http://norvig.com/sudoku.html
-##			-> constraint propogation and search algorithm for solving sudoku
+##		-> CNN (digit classification) and OpenCV implementation for board capture and projection
+##	• Peter Norvig: http://norvig.com/sudoku.html
+##		-> constraint propogation and search algorithm for solving sudoku
 
 from utilities import *
 from sudo import *
@@ -94,9 +94,6 @@ def solvePuzzle():
 		col1.image(original, use_column_width=True)
 		col2.header("Solved")
 		col2.image(solution, use_column_width=True)
-		#cv2.imshow('final', solution)
-		#cv2.waitKey(0)
-		#cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     solvePuzzle()
