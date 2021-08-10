@@ -35,7 +35,7 @@ def solvePuzzle():
 	uploaded_file = st.file_uploader("Choose an image file of a sudoku board to solve (.png, .jpg, .jpeg, etc.).")
 	if uploaded_file is not None:
 		file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
-		image = cv2.imdecode(file_bytes, cv2.CV_LOAD_IMAGE_COLOR)
+		image = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 		
 		# 1. Prepare the image
 		image = cv2.resize(image, (width, height))
