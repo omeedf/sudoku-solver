@@ -32,12 +32,12 @@ def solvePuzzle():
 	width = 450
 	blankImg = np.zeros((height, width, 3), np.uint8)
 
-	# 1. Prepare the image
 	uploaded_file = st.file_uploader("Choose an image file of a sudoku board to solve (.png, .jpg, .jpeg, etc.).")
 	if uploaded_file is not None:
 		file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
 		image = cv2.imdecode(file_bytes, 1)
-
+		
+		# 1. Prepare the image
 		image = cv2.resize(image, (width, height))
 		imgGray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 		imgBlur = cv2.GaussianBlur(imgGray, (5, 5), 1)
