@@ -1,7 +1,7 @@
 # Sudoku Solver using OpenCV
 ## project by Omeed Fallahi
 
-[Click here to launch the web-app](https://share.streamlit.io/omeedf/sudoku-solver/main/sudoSolve.py "Sudoku Solver, Omeed Fallahi")
+[Click here to launch the web-app](https://share.streamlit.io/omeedf/sudoku-solver/main/sudoSolve.py "Sudoku Solver, Omeed Fallahi"), or use the embedded button below!
 
 [![Click here to launch the web app!](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/omeedf/sudoku-solver/main/sudoSolve.py)
 
