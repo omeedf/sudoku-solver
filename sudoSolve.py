@@ -39,7 +39,6 @@ def solvePuzzle():
 		image = cv2.imdecode(file_bytes, 1)
 
 		image = cv2.resize(image, (width, height))
-		finalCopy = image.copy()
 		imgGray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 		imgBlur = cv2.GaussianBlur(imgGray, (5, 5), 1)
 		imgThresh = cv2.adaptiveThreshold(imgBlur, 255, 1, 1, 11, 2)
