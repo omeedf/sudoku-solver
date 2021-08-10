@@ -1,5 +1,5 @@
 opencv-python==4.5.3.56
-argparse
+argparse==1.4.0
 numpy==1.19.5
 tensorflow==2.5.0
 streamlit==0.86.0
