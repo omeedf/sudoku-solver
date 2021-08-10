@@ -1,9 +1,7 @@
-cv2
-time
-random
+opencv-python==4.5.3.56
 argparse
-numpy
-tensorflow
-streamlit
-PIL
-skimage
+numpy==1.19.5
+tensorflow==2.5.0
+streamlit==0.86.0
+pillow==8.2.0
+scikit-image==0.18.1
