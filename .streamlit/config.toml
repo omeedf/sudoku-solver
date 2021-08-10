@@ -1,0 +1,9 @@
+[theme]
+
+base = "dark"
+primaryColor = "#fb8604"
+backgroundColor = "375db1"
+
+#secondaryBackgroundColor =  default
+#textColor = default
+#font = default
